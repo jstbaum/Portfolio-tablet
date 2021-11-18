@@ -1,0 +1,1349 @@
+
+a.skip {
+    background: white;
+    left: 0;
+    padding: 6px;
+    position: absolute;
+    top: -40px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out; 
+    z-index: 1;
+  } 
+  
+a.skip:focus{
+    top: 10px;
+    color: black;
+    text-decoration-style: solid;
+} 
+
+@media screen and (min-width: 1023px) {
+
+header{
+    width: 100%;
+    justify-content: space-evenly;
+    font-weight: bolder;
+    font-family: sans-serif;
+    background-color: #FDE8FC;
+    border-bottom: 4px solid pink;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav_links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.nav_links a {
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+.nav_links > li{
+    margin: 15px;
+}
+
+h2 h3{
+    font-family: 'Raleway', sans-serif;
+}
+
+.current{
+    font-weight: bold;
+    font-size: 30px;
+    color:black;
+}
+
+.not-current{
+    font-size: 26px;
+    color: #616161;
+    text-decoration: none;
+}
+
+.about-intro{
+    padding: 15px;
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 40px;
+    align-items: center;
+}
+
+.about-container{
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 2;
+    padding-top: 10px;
+}
+
+.about-image{
+    grid-row: 1;
+    grid-column: 1;
+    display: block;
+    padding-left: 70px;
+    width: 36%;
+}
+
+.dogs-pic{
+    grid-row: 1;
+    grid-column: 2;
+    display: block;
+    padding-right: 70px;
+    width: 36%;
+}
+
+.about-text{ 
+    text-align: center;
+    grid-row: 2;
+    font-family: 'Raleway', serif;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.ollie-intro{
+    padding: 15px;
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 40px;
+}
+
+.ollie-container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 40px;
+}
+
+.ollie-container1 div{
+    padding: 10px;
+    margin: 10px; 
+}
+
+.ollie-at-beach, .ollie-camera-shy{
+    flex: 1 1 0;
+}
+
+.ollie-text1{
+    flex: 100%;
+    order: 3;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-size: 25px;
+    text-align: center;
+}
+
+.ollie-container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 40px;
+}
+
+.ollie-container2 div{
+    padding: 10px;
+    margin: 10px; 
+}
+
+.ollie-sleepy, .ollie-seatbelt{
+    flex: 1 1 0;
+}
+
+.ollie-text2{
+    flex: 100%;
+    order: 3;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-size: 25px;
+    text-align: center;
+}
+
+.winnie-intro{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 40px;
+}
+
+.winnie-container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 40px;
+}
+
+.winnie-container1 div{
+    padding: 10px;
+    margin: 10px; 
+}
+
+.winnie-snow, .winnie-outside{
+    flex: 1 1 0;
+}
+
+.winnie-text1{
+    flex: 100%;
+    order: 3;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-size: 25px;
+    text-align: center;
+}
+
+.winnie-container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 40px;
+}
+
+.winnie-container2 div{
+    padding: 10px;
+    margin: 10px; 
+}
+
+.winnie-guilty, .winnie-pic{
+    flex: 1 1 0;
+}
+
+.winnie-text2{
+    flex: 100%;
+    order: 3;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-size: 25px;
+    text-align: center;
+}
+
+.insta-intro{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 40px;
+}
+
+.insta-intro p{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 25px;
+}
+
+.insta-container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 40px;
+}
+
+.insta-container1 div{
+    padding: 10px;
+    margin: 10px; 
+}
+
+.insta-profile, .insta-pumpkin{
+    flex: 1 1 0;
+}
+
+.insta-text1{
+    flex: 100%;
+    order: 3;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-size: 25px;
+    text-align: center;
+}
+
+.insta-container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 40px;
+}
+
+.insta-container2 div{
+    padding: 10px;
+    margin: 10px; 
+}
+
+.noodle, .noodle2{
+    flex: 1 1 0;
+}
+
+.insta-text2{
+    flex: 100%;
+    order: 3;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-size: 25px;
+    text-align: center;
+}
+ 
+.gallery-container{
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 4;
+    grid-row-gap: 10px;
+    padding: 15px;
+}
+
+.gallery-intro{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 40px;
+}
+
+.pic1{
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic2{
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic3{
+    grid-row: 3;
+    grid-column: 2;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic4{
+    grid-row: 3;
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic5{
+    grid-row: 1;
+    grid-column: 3;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic6{
+    grid-row: 2;
+    grid-column: 3;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic7{
+    grid-row: 2;
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic8{
+    grid-row: 2;
+    grid-column: 2;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic9{
+    grid-row: 3;
+    grid-column: 3;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.pic10{
+    grid-row: 4;
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic11{
+    grid-row: 4;
+    grid-column: 2;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic12{
+    grid-row: 4;
+    grid-column: 3;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer{
+    border-top: 4px solid pink;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    background-color: #FDE8FC;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    font-size: 26px;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+
+header{
+    justify-content: space-evenly;
+    font-weight: bolder;
+    font-family: sans-serif;
+    background-color: #FDE8FC;
+    border-bottom: 4px solid pink;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    
+    
+.nav_links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+    
+.nav_links a {
+    text-decoration-line: none;
+    font-weight: bold;
+}
+    
+.nav_links > li{
+    margin: 15px;
+}
+    
+h2 h3{
+    font-family: 'Raleway', sans-serif;
+}
+    
+.current{
+    font-weight: bold;
+    font-size: 30px;
+    color:black;
+}
+    
+.not-current{
+    font-size: 26px;
+    color: #616161;
+    text-decoration: none;
+}
+    
+.about-container{
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 2;
+    padding-top: 10px;
+}
+    
+.about-intro{
+    padding: 15px;
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 40px;
+}
+    
+.about-image{
+    grid-row: 1;
+    grid-column: 1;
+    display: block;
+    max-width: 50%;
+    height: auto;
+}
+
+.dogs-pic{
+    grid-row: 1;
+    grid-column: 2;
+    display: block;
+    max-width: 50%;
+    height: auto;
+}
+       
+.about-text{ 
+    text-align: center;
+    grid-row: 2;
+    font-family: 'Raleway', serif;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 15px;
+}
+    
+.ollie-intro{
+    padding: 15px;
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 40px;
+}
+
+.ollie-container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ollie-at-beach, .ollie-camera-shy{
+    flex: 1 1 0;
+}
+
+.ollie-text1{
+    flex: 100%;
+    order: 3;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-size: 25px;
+    text-align: center;
+}
+
+.ollie-container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ollie-sleepy, .ollie-seatbelt{
+    flex: 1 1 0;
+}
+
+.ollie-text2{
+    flex: 100%;
+    order: 3;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-size: 25px;
+    text-align: center;
+}
+
+
+    
+ 
+.winnie-intro{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 40px;
+}
+
+.winnie-container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}  
+
+.winnie-snow, .winnie-outside{
+    flex: 1 1 0;
+}
+
+.winnie-text1{
+    flex: 100%;
+    order: 3;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-size: 25px;
+    text-align: center;
+}
+
+.winnie-container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}    
+ 
+.winnie-guilty, .winnie-pic{
+    flex: 1 1 0;
+}
+
+.winnie-text2{
+    flex: 100%;
+    order: 3;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-size: 25px;
+    text-align: center;
+}
+    
+.insta-intro{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 40px;
+}
+
+.insta-intro p{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 25px;
+}
+
+.insta-container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.insta-profile, .insta-pumpkin{
+    flex: 1 1 0;
+}
+
+.insta-text1{
+    flex: 100%;
+    order: 3;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-size: 25px;
+    text-align: center;
+}
+
+.insta-container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.noodle, .noodle2{
+    flex: 1 1 0;
+}
+
+.insta-text2{
+    flex: 100%;
+    order: 3;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-size: 25px;
+    text-align: center;
+}
+ 
+.gallery-container{
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 6;
+    grid-row-gap: 10px;
+    padding: 10px;
+
+}
+
+.gallery-intro{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 40px;
+}
+
+.pic1{
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic2{
+    grid-row: 1;
+    grid-column: 2;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic3{
+    grid-row: 2;
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic4{
+    grid-row: 2;
+    grid-column: 2;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic5{
+    grid-row: 3;
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic6{
+    grid-row: 3;
+    grid-column: 2;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic7{
+    grid-row: 4;
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic8{
+    grid-row: 4;
+    grid-column: 2;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic9{
+    grid-row: 5;
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic10{
+    grid-row: 5;
+    grid-column: 2;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic11{
+    grid-row: 6;
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic12{
+    grid-row: 6;
+    grid-column: 2;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+footer{
+    border-top: 4px solid pink;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    background-color: #FDE8FC;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    font-size: 26px;
+}     
+}
+
+@media screen and (min-width: 1365px){
+
+.about-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about-image, .dogs-pic{
+    flex: 1 1 0;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 15px;
+}
+
+.about-text{ 
+    flex: 100%;
+    order: 3;
+    padding: 10px;
+    font-family: 'Raleway';
+    font-size: 30px;
+    text-align: center;
+}
+
+.ollie-container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 130px;
+}
+
+.ollie-at-beach, .ollie-camera-shy{
+    flex: 1 1 0;
+    padding-left: 130px;
+    padding-right: 150px;
+    padding-bottom: 15px;
+}
+
+.ollie-text1{
+    flex: 100%;
+    order: 3;
+    padding: 10px;
+    padding-right: 30px;
+    font-family: 'Raleway';
+    font-size: 30px;
+    text-align: center;
+}
+
+.ollie-container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 130px;
+}
+
+.ollie-sleepy, .ollie-seatbelt{
+    flex: 1 1 0;
+    padding-left: 130px;
+    padding-right: 150px;
+    padding-bottom: 15px;
+}
+
+.ollie-text2{
+    flex: 100%;
+    order: 3;
+    padding: 10px;
+    padding-right: 30px;
+    font-family: 'Raleway';
+    font-size: 30px;
+    text-align: center;
+}
+
+.winnie-container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 130px;
+}
+
+.winnie-snow, .winnie-outside{
+    flex: 1 1 0;
+    padding-left: 130px;
+    padding-right: 150px;
+    padding-bottom: 15px;
+}
+
+.winnie-text1{
+    flex: 100%;
+    order: 3;
+    padding: 10px;
+    padding-right: 30px;
+    font-family: 'Raleway';
+    font-size: 30px;
+    text-align: center;
+}
+
+.winnie-container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 130px;
+}
+
+.winnie-guilty, .winnie-pic{
+    flex: 1 1 0;
+    padding-left: 130px;
+    padding-right: 150px;
+    padding-bottom: 15px;
+}
+
+.winnie-text2{
+    flex: 100%;
+    order: 3;
+    padding: 10px;
+    padding-right: 30px;
+    font-family: 'Raleway';
+    font-size: 30px;
+    text-align: center;
+}
+
+.insta-container1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 130px;
+}
+
+.insta-profile, .insta-pumpkin{
+    flex: 1 1 0;
+    padding-left: 130px;
+    padding-right: 150px;
+    padding-bottom: 15px;
+}
+
+.insta-text1{
+    flex: 100%;
+    order: 3;
+    padding: 10px;
+    padding-right: 30px;
+    font-family: 'Raleway';
+    font-size: 30px;
+    text-align: center;
+}
+
+.insta-container2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 130px;
+}
+
+.noodle, .noodle2{
+    flex: 1 1 0;
+    padding-left: 130px;
+    padding-right: 150px;
+    padding-bottom: 15px;
+}
+
+.insta-text2{
+    flex: 100%;
+    order: 3;
+    padding: 10px;
+    padding-right: 30px;
+    font-family: 'Raleway';
+    font-size: 30px;
+    text-align: center;
+}    
+} 
+
+@media only screen and (max-height: 812px) and (max-width: 812px){
+    header{
+        align-items: center;
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        font-weight: bolder;
+        font-family: sans-serif;
+        background-color: #FDE8FC;
+        border-bottom: 4px solid pink;
+        /* padding: 10px; */
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    
+    .nav_links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+    }
+    
+    .nav_links a {
+        text-decoration-line: none;
+        font-weight: bold;
+    }
+    
+    
+    h2 h3{
+        font-family: 'Raleway', sans-serif;
+    }
+    
+    .current{
+        font-weight: bold;
+        font-size: 21px;
+        color:black;
+    }
+    
+    .not-current{
+        font-size: 17px;
+        /* color:darkgray; */
+        /* color:black; */
+        color: #616161;
+        text-decoration: none;
+    }
+    
+    .about-container{
+        display: grid;
+        grid-template-rows: 5;
+        grid-template-columns: 1;
+        grid-row-gap: 10px;
+        padding-top: 10px;
+    }
+    
+    .about-intro{
+        padding: 15px;
+        font-family: 'Raleway';
+        text-align: center;
+        grid-row: 1;
+        font-size: 25px;
+    }
+    
+    .about-image{
+        grid-row: 2;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .about-text{ 
+        text-align: center;
+        grid-row: 3;
+        /* font-size: 15px; */
+        font-family: 'Raleway', serif;
+        font-weight: bolder;
+        font-size: 17px;
+    }
+    
+    .dogs-pic{
+        grid-row: 4;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .about-paragraph{
+        padding: 10px;
+        font-family: 'Raleway';
+        text-align: center;
+        grid-row: 5;
+        font-size: 17px;
+        /* font-size: 20px; */
+        /* position: relative; */
+    }
+    
+    .ollie-container{
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 7;
+        grid-row-gap: 10px;
+        padding-top: 10px;
+    }
+    
+    .ollie-intro{
+        padding: 15px;
+        font-family: 'Raleway';
+        text-align: center;
+        grid-row: 1;
+        font-size: 25px;
+    }
+    
+    .ollie-at-beach{
+        grid-row: 2;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .ollie-text1{
+        padding: 10px;
+        font-family: 'Raleway';
+        text-align: center;
+        grid-row: 3;
+        font-size: 17px;
+    }
+    
+    .ollie-camera-shy{
+        grid-row: 4;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .ollie-text2{
+        padding: 10px;
+        font-family: 'Raleway';
+        text-align: center;
+        grid-row: 5;
+        font-size: 17px;
+    }
+    
+    .ollie-michigan{
+        grid-row: 6;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .ollie-text3{
+        padding: 10px;
+        font-family: 'Raleway';
+        text-align: center;
+        grid-row: 7;
+        font-size: 17px;
+        padding-bottom: 20px;
+    }
+    
+    .winnie-container{
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 7;
+        grid-row-gap: 10px;
+        padding-top: 10px;
+    }
+    
+    .winnie-intro{
+        padding: 10px;
+        font-family: 'Raleway';
+        text-align: center;
+        grid-row: 1;
+        font-size: 25px;
+    }
+    
+    .winnie-snow{
+        grid-row: 2;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .winnie-outside{
+        grid-row: 3;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .winnie-text1{
+        padding: 10px;
+        font-family: 'Raleway';
+        text-align: center;
+        grid-row: 4;
+        font-size: 17px;
+    }
+    
+    .winnie-guilty{
+        grid-row: 5;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .winnie-outside{
+        grid-row: 6;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .winnie-text2{
+        padding: 10px;
+        font-family: 'Raleway';
+        text-align: center;
+        grid-row: 7;
+        font-size: 17px;
+    }
+    
+
+    
+
+    /* .about-intro{
+        padding: 10px;
+        font-family: 'Raleway';
+        text-align: center;
+        grid-row: 1;
+    } */
+    
+    .insta-container{
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 7;
+        grid-row-gap: 10px;
+        padding-top: 10px;
+    }
+    
+    .insta-intro{
+        padding: 10px;
+        font-family: 'Raleway';
+        text-align: center;
+        grid-row: 1;
+        font-size: 25px;
+    }
+    
+    .insta-intro p{
+        padding: 10px;
+        font-family: 'Raleway';
+        text-align: center;
+        grid-row: 1;
+        font-size: 17px;
+    }
+    
+    .insta-profile{
+        grid-row: 2;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .insta-text1{
+        padding: 10px;
+        font-family: 'Raleway';
+        text-align: center;
+        grid-row: 3;
+        font-size: 17px;
+    }
+    
+    .insta-pumpkin{
+        grid-row:4;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .insta-text2{
+        padding: 10px;
+        font-family: 'Raleway';
+        text-align: center;
+        grid-row: 5;
+        font-size: 17px;
+    }
+    
+    .noodle{
+        grid-row: 6;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .insta-text3{
+        padding: 10px;
+        font-family: 'Raleway';
+        text-align: center;
+        grid-row: 7;
+        font-size: 17px;
+    }
+    
+    .gallery-container{
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: 10;
+        grid-row-gap: 10px;
+        padding-top: 10px;
+    }
+    
+    .gallery-intro{
+        padding: 10px;
+        font-family: 'Raleway';
+        text-align: center;
+        grid-row: 1;
+        font-size: 25px;
+    }
+    
+    .pic1{
+        grid-row: 2;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .pic2{
+        grid-row: 3;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .pic3{
+        grid-row: 4;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .pic4{
+        grid-row: 5;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .pic5{
+        grid-row: 6;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .pic6{
+        grid-row: 7;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .pic7{
+        grid-row: 8;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .pic8{
+        grid-row: 9;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .pic9{
+        grid-row: 10;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        padding-bottom: 10px;
+    }
+    
+    footer{
+        border-top: 4px solid pink;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: bolder;
+        background-color: #FDE8FC;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+        padding: 20px;
+        }
+}
